@@ -34,7 +34,7 @@ S-au folosit doua terminale:
 ### 3.	Redirecționarea HTTP:
 Pentru a asigura că traficul HTTP este redirecționat către serverul fals, s-a modificat configurația serverului Apache pentru a servi conținutul web fals doar prin HTTP.
 Ettercap a fost rulat cu opțiunea de redirecționare HTTP activată.
-sudo a2dissite default-ssl
+> sudo a2dissite default-ssl
 
 ### Rezultatul
 Atacatorul a reușit să redirecționeze traficul DNS și HTTP către serverul fals, astfel încât când victima a încercat să acceseze un site web legitim, in cazul nostru tryhackme.com, a fost îndrumată către pagina web falsificată găzduită de serverul Apache al atacatorului.
