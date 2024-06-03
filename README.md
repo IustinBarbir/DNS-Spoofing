@@ -9,7 +9,7 @@
 Am folosit doua masini virtuale:
 1.	Masina atacatorului: Kali Linux (IP 192.168.56.7)
 2.	Masina victimei: Ubuntu (IP 192.168.56.4)
-Mașinile au fost conectate printr-un NAT (MyNAT, configurat pentru laboratoarele precedente), permițând comunicația între ele
+Mașinile au fost conectate printr-un NAT (MyNAT, configurat pentru laboratoarele precedente), permițând comunicația între ele.
 Pe mașina atacatorului s-a configurat un server Apache pentru a servi o pagină web falsă. In plus, s-a folosit dsniff. 
 Pe masina atacatorului am modificat fisierele:
 -	/etc/hosts (adaugand linia 192.168.56.7 www.victima.com) 
