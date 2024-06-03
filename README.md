@@ -1,5 +1,9 @@
 # Securitatea retelelor de calculatoare: Tema 2 - DNS Spoofing
 ## Barbir Iustin MSI1
+**BEFORE**
+![](https://github.com/IustinBarbir/DNS-Spoofing/blob/main/before.jpg)
+**AFTER** 
+![](https://github.com/IustinBarbir/DNS-Spoofing/blob/main/after.jpg)
 
 ### 1.	Configurarea mediului de test:
 Am folosit doua masini virtuale:
@@ -22,7 +26,9 @@ S-au folosit doua terminale:
 -	unul pentru dnsiff:
 > sudo dnsspoof -i eth0
 ![](https://github.com/IustinBarbir/DNS-Spoofing/blob/main/etter_cmd.jpg)
-Alternativ, se poate folosi ettercap-graphical:
+
+**Alternativ, se poate folosi ettercap-graphical:**
+
 ![](https://github.com/IustinBarbir/DNS-Spoofing/blob/main/etter_graphical.jpg)
 
 ### 3.	Redirecționarea HTTP:
